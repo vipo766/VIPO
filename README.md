@@ -6,7 +6,7 @@
 To install all the required dependencies:
 
 1. Install MuJoCo engine, which can be downloaded from [here](https://mujoco.org/download).
-2. Install Python packages listed in `requirements.txt` using `pip install -r requirements.txt`. You should specify the version of `mujoco-py` in `requirements.txt` depending on the version of MuJoCo engine you have installed.
+2. Install Python packages listed in `requirements.yml` using `conda env create -f requirement.yml`. You should specify the version of `mujoco-py` in `requirements.ymal` depending on the version of MuJoCo engine you have installed.
 3. Manually download and install `d4rl` package from [here](https://github.com/rail-berkeley/d4rl).
 4. Manually download and install `neorl` package from [here](https://github.com/polixir/NeoRL).
 
