@@ -1,8 +1,5 @@
-# Model-Bellman Inconsistency Penalized Offline Policy Optimization (MOBILE)
+# VIPO: Value Function Inconsistency Penalized Offline Policy Optimization
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/yihaosun1124/mobile/blob/main/LICENSE)
-
-Code for MOBILE: [Model-Bellman Inconsistency Penalized Offline Policy Optimization](https://openreview.net/forum?id=rwLwGPdzDD).
 
 ## Requirements
 
@@ -19,18 +16,4 @@ Just run `train.py` with specifying the task name. Other hyperparameters are aut
 
 ```bash
 python train.py --task [TASKNAME]
-```
-
-## Citation
-
-If you find this repository useful for your research, please cite:
-
-```bash
-@inproceedings{
-    mobile,
-    title={Model-Bellman Inconsistency Penalized Offline Policy Optimization},
-    author={Yihao Sun and Jiaji Zhang and Chengxing Jia and Haoxin Lin and Junyin Ye and Yang Yu},
-    booktitle={International Conference on Machine Learning},
-    year={2023}
-}
 ```
